@@ -1,4 +1,4 @@
-d3.json("../samples.json").then((data) => {
+d3.json("data/samples.json").then((data) => {
    
     // Create Dropdown Options   
     var select = document.getElementById("selDataset"); 
